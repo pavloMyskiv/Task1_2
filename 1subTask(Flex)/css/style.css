@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    color: #fff;
+}
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    align-self: stretch;
+    text-align: center;
+    background-color: #000080;
+}
+.content{
+    flex: 1 1 auto;
+    display: flex;
+}
+nav{
+    padding-left: 1em;
+    background-color: #ffa500;
+    min-width: 10em;
+}
+.main{
+    padding-left: 1em;
+    flex: 1 1 auto
+
+}
+.links{
+    padding-left: 1em;
+    background-color: #800080;
+    min-width: 10em;
+}
+footer{
+    align-self: stretch;
+    text-align: center;
+    background-color: #008000	;
+}
+
+@media (max-width: 767px){
+    .content{
+        flex-direction: column;
+    }
+
+}
